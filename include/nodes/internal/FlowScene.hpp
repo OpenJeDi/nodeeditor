@@ -103,6 +103,11 @@ public:
 Q_SIGNALS:
 
   /**
+   * @brief Node will be created
+   */
+  void nodeWillCreate(NodeDataModel &model);
+
+  /**
    * @brief Node has been created but not on the scene yet.
    * @see nodePlaced()
    */
